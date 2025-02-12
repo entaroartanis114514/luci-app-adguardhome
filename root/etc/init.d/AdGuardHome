@@ -70,7 +70,6 @@ set_iptable()
 	set firewall.AdGuardHome=include
 	set firewall.AdGuardHome.type=script
 	set firewall.AdGuardHome.path=/usr/share/AdGuardHome/firewall.start
-	set firewall.AdGuardHome.reload=1
 	commit firewall
 EOF
 
